@@ -301,7 +301,88 @@ main{
 	margin-bottom: 20px;
 }
 
-/*APARTADO DE VIDEOJUEGOS ----------------------------------------------------------------------------------------*/
+/*APARTADO DE INTERNAS / BANNERS --------------------------------------- -----------------------------------------*/
+.separador_internas_banner{
+	height: 300px;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	align-content: center;
+}
+.separador_internas_peliculas{
+	background-image: url("../g_internas_banners/3.png");
+	text-align: center;
+}
+.separador_internas_productos{
+	background-image: url("../g_internas_banners/2.png");
+}
+.separador_internas_contacto{
+	background-image: url("../g_internas_banners/1.jpg");
+}
+
+/*APARTADO DE INTERNAS / PELICULAS --------------------------------------- -----------------------------------------*/
+.separador_internas_banner.separador_internas_peliculas h1 {
+	text-shadow: 0 0 15px #000000;
+	color: white;
+	font-family: "Orbitron", sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+/*Peliculas Grupo*/
+.container-fluid-peliculas{
+	padding: 20px 8%;
+}
+
+/*Tarjetas de peliculas*/
+.tarjeta-horizontal {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tarjeta-horizontal:hover {
+	background-color: #000000;
+	transform: scale(1.03); /* Escala la tarjeta */
+	color: white;
+	-webkit-box-shadow: 0px 0px 5px 2px #14B549;
+	box-shadow: 0px 0px 5px 2px #14B549;
+}
+
+.tarjeta-horizontal img {
+    max-height: 300px;
+    object-fit: cover;
+	width: 100%;
+    transition: 0.3s all ease-in-out;
+}
+
+.tarjeta-horizontal:hover img {
+    transform: scale(1.1);
+	border-radius: 10px;
+	transition: 0.3s all ease-in-out;
+}
+
+.tarjeta-horizontal a{
+	transition: 0.3s all ease-in-out;
+}
+
+.tarjeta-horizontal a:hover{
+	background-color: #000000;
+    border-color: #14B549;
+    color: #14B549;
+    transition: 0.3s all ease-in-out;
+}
+.container-fluid-peliculas .card.tarjeta-horizontal.mb-4 {
+	margin: 50px 0px;
+}
+.row.g-0.align-items-center .col-lg-10 .card-body {
+	padding: 0px 50px;
+}
+.tarjeta-horizontal:hover .col-lg-10 .card-body .card-title{
+	color: #dc3545;
+}
+
+/*APARTADO DE INTERNAS / contacto --------------------------------------- -----------------------------------------*/
 
 
 
@@ -322,7 +403,19 @@ main{
 
 
 
-/*Punto de Ruptura de Tableta*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Punto de Ruptura de Pantalla pequeña*/
 
 @media (max-width:991px){
 	/*IMAGEN LOGO ALIEN VS PREDATOR*/
@@ -381,6 +474,31 @@ main{
 	/*TAMAÑO TITULAR DE LA PRIMERA TARJETA*/
 	.col-lg-4 .card-body .mb-4.text-center {
 		font-size: 42px;
+	}
+}
+
+
+/*Punto de Ruptura de Tableta*/
+@media (max-width:768px){
+	.container-fluid-videojuegos{
+		display: none;
+	}
+	/*MARGIN IMGANES DEL ACORDEON*/
+	#collapseOne .accordion-body .float-start {
+		margin-right: 15px;
+		margin-bottom: 50px;
+	}
+	#collapseTwo .accordion-body .float-end {
+		margin-left: 15px;
+		margin-bottom: 20px;
+	}
+	#collapseThree .accordion-body .float-start {
+		margin-right: 15px;
+		margin-bottom: 50px;
+	}
+	#collapseFourth .accordion-body .float-end {
+		margin-left: 15px;
+		margin-bottom: 20px;
 	}
 }
 
