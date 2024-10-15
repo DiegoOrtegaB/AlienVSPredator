@@ -1,0 +1,441 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+/*PROPIEDADES DE NAV ----------------------------------------------------------------------------------------------*/
+.navbar.navbar-dark.navbar_personalizada.sticky-top {
+	padding: 20px;
+	height: 200px;
+	border: solid 5px rgba(0,0,0,1.00);
+}
+
+/*IMAGEN DE FONDO DEL NAV*/
+.navbar_personalizada{
+	background-image: url("../g_index/wallpaperflare.com_wallpaper.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*TAMAÑO LOGO ALIEN VS PREDATOR - NAV*/
+.container-fluid .navbar-brand .img-fluid {
+	width: 200px;
+}
+
+/*TAMAÑO LOGO AVP*/
+#offcanvasDarkNavbar .offcanvas-header .img-fluid {
+	width: 150px;
+}
+
+/*COLOR DE FONDO DE EL CONTENIDO  ---------------------------------------------------------------------------------*/
+main{
+	background-image: url("../g_index/space.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*APARTADO DEL IFRAME ---------------------------------------------------------------------------------------------*/
+.container-fluid_video{
+	padding: 20px 8%;
+}
+
+/*IFRAME*/
+.col-lg-8 .ratio.ratio-16x9 iframe {
+	border-radius: 15px;
+}
+
+/*BG DE TEXTOS - IFRAME*/
+.row .col-lg-4 .card-body {
+	background-color: rgba(255,255,255,0.50);
+	height: 100%;
+	border-radius: 15px;
+	padding: 4%;
+}
+
+/*FOTO COMENTARIO*/
+.row.align-items-center.g-0.mt-7 .col-auto .rounded-circle.img-fluid.me-2 {
+	width: 50px;
+}
+
+/*H1 DEL IFRAME*/
+.col-lg-4 .card-body .mb-4.text-center {
+	font-family: "Orbitron", sans-serif;
+	font-size: 36px;
+}
+
+/*P - IFRAME*/
+.col-lg-4 .card-body p {
+	font-size: 14px;
+	color: #212529;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.50);
+	font-weight: 400;
+}
+
+/*APARTADO DE TARJETAS -------------------------------------------------------------------------------------------*/
+.container-fluid-tarjetas{
+	padding: 20px 8%;
+}
+
+/*H5 DE LAS TARJETAS*/
+.card .card-body .card-title {
+	font-family: "Orbitron", sans-serif;
+}
+
+/*BORDE DE EL CONTENIDO INTERNO DE LAS TARJETAS*/
+.col-lg-4 .card .card-body {
+	border-radius: 0px;
+}
+
+/*APARTADO DE CARROUSEL ------------------------------------------------------------------------------------------*/
+.container-fluid-carrousel{
+	padding: 20px 8%;
+}
+
+/*BORDE DE CARROUSEL*/
+.col-lg-6 #carouselExampleIndicators .carousel-inner {
+	border-radius: 10px;
+}
+
+/*ACORDEONES COLORES DE FLECHA*/
+.accordion-item .accordion-header .accordion-button::after{
+	background-image:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/*ACORDEONES COLORES HOVER*/
+.accordion-item .accordion-header .accordion-button:hover{
+	box-shadow: 0px 0px 50px 0px #14B549;
+}
+
+/*TEXTOS DE LOS ACORDEONES*/
+.accordion-item .accordion-header .accordion-button {
+	font-family: "Orbitron", sans-serif;
+}
+
+/*IMAGEN 1 DE LOS ACORDEONES*/
+#collapseOne .accordion-body .float-start {
+	width: 220px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+/*IMAGEN 2 DE LOS ACORDEONES*/
+#collapseTwo .accordion-body .float-end {
+	width: 220px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+/*IMAGEN 3 DE LOS ACORDEONES*/
+#collapseThree .accordion-body .float-start {
+	width: 220px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+/*IMAGEN 4 DE LOS ACORDEONES*/
+#collapseFourth .accordion-body .float-end {
+	width: 220px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+
+/*APARTADO DE FOOTER ---------------------------------------------------------------------------------------------*/
+.container-fluid-pie{
+	padding: 20px 8%;
+	background-color: #000000;
+	border-top: solid 8px rgba(255,255,255,0.50);
+}
+
+/*IMAGEN DEL FOOTER*/
+.imagencita_footer{
+	display: block;
+	margin: auto;
+	width: 200px;
+}
+
+/*CENTRADO DE LOS ICONOS E IMAGEN*/
+.container-fluid-pie .row .col-lg-4 {
+	align-content: center;
+}
+
+/*REDES SOCIALES*/
+.row .col-lg-4 #redes {
+	display: flex;
+	margin: auto;
+	justify-content: space-evenly;
+}
+
+/*ICONOS*/
+#redes i{
+	font-size: 40px;
+	color: white;
+	transition: 0.2s all ease-in-out;
+}
+
+#redes i:hover{
+	transform: scale(1.5);
+	color: #dc3545;
+	text-shadow: 0px 0px 3px #dc3545;
+}
+
+/*MENUS*/
+#menus ul{
+	list-style-type: none;
+	text-align: center;
+	line-height: 28px;
+	margin: 0;
+	padding: 0;
+}
+
+#menus a{
+	font-family: "Orbitron", sans-serif;
+	text-decoration: none;
+	color: white;
+	transition: 0.2s all ease-in-out;
+}
+
+#menus a:hover{
+	color: #14B549;
+	text-shadow: 0px 0px 6px #14B549;
+}
+
+/*APARTADO DE WA ---------------------------------------------------------------------------------------------*/
+.wa{
+	font-size: 40px;
+	width: 100px;
+	padding: 10px;
+	background-color: #121212;
+	position: fixed;
+	right: -30px;
+	bottom: 15%;
+	z-index: 99;
+	border-radius: 15px 0 0 15px;
+	transition: 0.5s all ease-in-out;
+}
+.wa:hover{
+	right: 0px;
+	-webkit-box-shadow: 0px 0px 10px 0px #dc3545;
+	box-shadow: 0px 0px 10px 0px #dc3545;
+}
+.wa i{
+	margin: auto 9px;
+	transition: 0.5s all ease-in-out;
+}
+.wa i:hover{
+	transform: scale(1.2);
+}
+.wa a{
+	color: white;
+}
+.wa a:hover{
+	text-shadow: 0px 0px 2px #dc3545;
+	color: #dc3545;
+}
+
+/*APARTADO DE PARA ARRIBA ----------------------------------------------------------------------------------------*/
+.para_arriba{
+	font-size: 15px;
+	padding: 8px;
+	background-color: #121212;
+	position: fixed;
+	right: 14px;
+	bottom: 8%;
+	z-index: 98;
+	border-radius: 12px 12px 12px 12px;
+	transition: 0.5s all ease-in-out;
+}
+.para_arriba:hover{
+	-webkit-box-shadow: 0px 0px 10px 0px #14B549;
+	box-shadow: 0px 0px 10px 0px #14B549;
+}
+.para_arriba i{
+	color: white;
+	transition: 0.5s all ease-in-out;
+}
+.para_arriba i:hover{
+	color: #14B549;
+}
+.para_arriba a:hover{
+	text-shadow: 0px 0px 10px #14B549;
+}
+
+/*APARTADO DE VIDEOJUEGOS ----------------------------------------------------------------------------------------*/
+.container-fluid-videojuegos{
+	padding: 20px 8%;
+}
+
+/*LETRAS TITULAR Y GROSO*/
+.row .col-12 .text-center{
+	color: white;
+	font-family: "Orbitron", sans-serif;
+}
+
+/*TAMAÑO DE CAJA / CONTENEDOR*/
+.container-fluid-videojuegos .row .col-lg-12{
+	display: flex;
+	width: 100%;
+	height: 400px;
+}
+
+/*PROPIEDADES DE LA IMAGEN*/
+.row .col-lg-12 img{
+	width: 0px;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: .8;
+	transition: .5s ease;
+	filter: grayscale(100%);
+}
+
+/*PROPIEDADES DE LA IMAGEN AL PONER CURSOR ENCIMA*/
+.row .col-lg-12 img:hover{
+	cursor: crosshair;
+	width: 500px;
+	opacity: 1;
+	filter: grayscale(0%);
+}
+
+/*ESPACIO ENTRE LAS LETRAS Y EL SLIDER*/
+.container-fluid-videojuegos .row .col-12{
+	margin-bottom: 20px;
+}
+
+/*APARTADO DE VIDEOJUEGOS ----------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Punto de Ruptura de Tableta*/
+
+@media (max-width:991px){
+	/*IMAGEN LOGO ALIEN VS PREDATOR*/
+	.container-fluid .navbar-brand .img-fluid{
+		width: 150px;
+	}
+	/*IMAGEN LOGO AVP*/
+	#offcanvasDarkNavbar .offcanvas-header .img-fluid{
+		width: 130px;
+	}
+	/*TAMAÑO NAVBAR*/
+	.navbar.navbar-dark.navbar_personalizada.sticky-top{
+		height: 180px;
+	}
+	/*ESPACIO ENTRE EL IFRAME Y LA TARJETA*/
+	.row .col-lg-4 .card-body {
+		margin-top: 20px;
+	}
+	/*ESPACIO ENTRE LAS TARJETAS*/
+	.container-fluid-tarjetas .row .col-lg-4 {
+		margin: 10px 0;
+	}
+	/*CORRECCION ERROR MARGIN EN EL CUERPO - DE TEXTO - DE LAS TARJETAS*/
+	.col-lg-4 .card .card-body {
+		margin: 0;
+	}
+	/*ESPACIO ENTRE EL CARROUSEL Y EL ACORDEON*/
+	.container-fluid-carrousel .row .col-lg-6 {
+		margin: 10px 0;
+	}
+	/*ARREGO ERROR TAMAÑO IMAGENES DEL ACORDEON*/
+	#collapseOne .accordion-body .float-start {
+		width: 118px;
+	}
+	#collapseTwo .accordion-body .float-end {
+		width: 118px;
+	}
+	#collapseThree .accordion-body .float-start {
+		width: 118px;
+	}
+	#collapseFourth .accordion-body .float-end {
+		width: 118px;
+	}
+	/*ESPACIO ENTRE LOS CONTENIDOS DEL FOOTER*/
+	.container-fluid-pie .row .col-lg-4 {
+		margin: 10px 0;
+	}
+	/*ESPACIO ENTRE LAS REDES SOCIALES - MAS PEQUEÑAS - FOOTER*/
+	#redes{
+		padding: 0px 8%;
+	}
+	/*ESPACIO ENTRE WA Y PARA ARRIBA*/
+	.wa{
+		bottom: 16%;
+	}
+	/*TAMAÑO TITULAR DE LA PRIMERA TARJETA*/
+	.col-lg-4 .card-body .mb-4.text-center {
+		font-size: 42px;
+	}
+}
+
+
+/*Punto de Ruptura de Celular*/
+
+@media (max-width:576px){
+	/*IMAGEN LOGO ALIEN VS PREDATOR*/
+	.container-fluid .navbar-brand .img-fluid{
+		width: 100px;
+	}
+	/*IMAGEN LOGO AVP*/
+	#offcanvasDarkNavbar .offcanvas-header .img-fluid{
+		width: 100px;
+	}
+	/*TAMAÑO NAVBAR*/
+	.navbar.navbar-dark.navbar_personalizada.sticky-top{
+		height: 160px;
+	}
+	/*PADDING DE LOS CONTENEDORES*/
+	.container-fluid_video{
+		padding: 15px 2%;
+	}
+	.container-fluid-tarjetas{
+		padding: 15px 2%;
+	}
+	.container-fluid-carrousel{
+		padding: 15px 2%;
+	}
+	.container-fluid-pie{
+		padding: 15px 2%;
+	}
+	/*MARGIN IMGANES DEL ACORDEON*/
+	#collapseOne .accordion-body .float-start {
+		margin-right: 18px;
+		margin-bottom: 15px;
+	}
+	#collapseTwo .accordion-body .float-end {
+		margin-left: 18px;
+		margin-bottom: 15px;
+	}
+	#collapseThree .accordion-body .float-start {
+		margin-right: 18px;
+		margin-bottom: 15px;
+	}
+	#collapseFourth .accordion-body .float-end {
+		margin-left: 18px;
+		margin-bottom: 15px;
+	}
+	/*WA DESAPARECE PORQUE ES MUY GRANDE*/
+	.wa{
+		display: none;
+	}
+	/*SE AJUSTA UN POCO MAS A LA DERECHA LA CLASE PARA ARRIBA*/
+	.para_arriba{
+		right: 20px;
+	}
+}
