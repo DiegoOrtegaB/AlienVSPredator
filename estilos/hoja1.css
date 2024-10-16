@@ -447,6 +447,49 @@ main{
 }
 
 
+/*APARTADO DE INTERNAS / contacto --------------------------------------- -----------------------------------------*/
+.separador_internas_banner.separador_internas_productos h1 {
+	text-shadow: 0 0 15px #000000;
+	color: white;
+	font-family: "Orbitron", sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+.container-fluid-productos{
+	padding: 20px 8%;
+}
+
+.lienas h3 {
+	text-shadow: 0 0 15px #FFFFFF;
+	color: white;
+	font-family: "Orbitron", sans-serif;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+hr{
+	height: 5px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.container-fluid-productos .card img {
+    width: 100%;        
+    height: 100%;
+    object-fit: cover;    
+    overflow: hidden;       
+}
+
+.container-fluid-productos .card .col-md-4 {
+    max-width: 150px;
+	max-height: 150px;
+    overflow: hidden;      
+}
+
+
+
 
 /*responsive*/
 
@@ -488,46 +531,8 @@ main{
 	}
 }
 
-/*APARTADO DE INTERNAS / contacto --------------------------------------- -----------------------------------------*/
-.separador_internas_banner.separador_internas_productos h1 {
-	text-shadow: 0 0 15px #000000;
-	color: white;
-	font-family: "Orbitron", sans-serif;
-	font-size: 60px;
-	text-align: center;
-}
 
-.container-fluid-productos{
-	padding: 20px 8%;
-}
 
-.lienas h3 {
-	text-shadow: 0 0 15px #FFFFFF;
-	color: white;
-	font-family: "Orbitron", sans-serif;
-	font-size: 30px;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-hr{
-	height: 5px;
-    background-color: #FFFFFF;
-    border: none;
-}
-
-.container-fluid-productos .card img {
-    width: 100%;        
-    height: 100%;
-    object-fit: cover;    
-    overflow: hidden;       
-}
-
-.container-fluid-productos .card .col-md-4 {
-    max-width: 150px;
-	max-height: 150px;
-    overflow: hidden;      
-}
 
 
 
@@ -671,5 +676,12 @@ hr{
 	/*SE AJUSTA UN POCO MAS A LA DERECHA LA CLASE PARA ARRIBA*/
 	.para_arriba{
 		right: 20px;
+	}
+	.container-fluid-productos{
+		padding: 15px 2%;
+	}
+	.container-fluid-productos .card .col-md-4 {
+    	display: flex;
+		margin: auto;
 	}
 }
