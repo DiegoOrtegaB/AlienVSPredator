@@ -596,6 +596,13 @@ hr{
 	.col-lg-4 .card-body .mb-4.text-center {
 		font-size: 42px;
 	}
+	.row.g-0.align-items-center .col-lg-10 .card-body {
+		padding: 20px 2%;
+	}
+	.tarjeta-horizontal:hover img {
+    	transform: scale(1.0);
+		border-radius: 5px 5px 10px 10px;  
+	}
 }
 
 
@@ -683,5 +690,8 @@ hr{
 	.container-fluid-productos .card .col-md-4 {
     	display: flex;
 		margin: auto;
+	}
+	.container-fluid-peliculas{
+		padding: 15px 2%;
 	}
 }
